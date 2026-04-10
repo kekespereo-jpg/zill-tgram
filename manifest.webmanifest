@@ -1,19 +1,31 @@
 {
   "name": "ZILL_TGRAM",
   "short_name": "ZILL",
-  "description": "Fast and secure messenger",
+  "description": "Fast and secure messenger with dark theme",
   "theme_color": "#0a0612",
   "background_color": "#0a0612",
   "display": "standalone",
-  "start_url": "/",
+  "scope": "/zill-tgram/",
+  "start_url": "/zill-tgram/",
+  "orientation": "portrait",
+  "categories": ["social", "messaging"],
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "/zill-tgram/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "/zill-tgram/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/zill-tgram/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
